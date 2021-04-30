@@ -1,0 +1,15 @@
+Tutorial para criaçao de branch
+
+1) Comando para criar uma branch
+#git checkout -b branchteste
+O git criara a branch e ja passara a utilizar-la
+
+2) Cria algum arquivo que queira inserir e usa o comando "git add" para adicionar esse arquivo ao index
+#git add comandos_branch.txt
+
+3) Commita a alteracao
+#git commit -m "nova branch com tutorial" comandos_branch.txt
+
+4) Envia a alteracao (nova branch e novo arquivo) para o repositorio remoto
+#git push origin branchteste
+
