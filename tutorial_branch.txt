@@ -13,3 +13,7 @@ O git criara a branch e ja passara a utilizar-la
 4) Envia a alteracao (nova branch e novo arquivo) para o repositorio remoto
 #git push origin branchteste
 
+5) Apos a criacao da branch e envio ao repositorio, um merge request (pull request) eh criado
+Apos aprovar e realizado o merge, a alteracao eh enviada para a branch master
+
+
