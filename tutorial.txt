@@ -1,0 +1,30 @@
+Como criar um arquivo e enviar do repositorio local para o repositorio remoto:
+
+1) Deve ser usado os comandos abaixo para configurar usuario e email ao git
+#git config --global user.name "Patrick Hugo"
+#git config --global user.email "patrickhugo@gmail.com"
+
+2) Clonar o repositorio 
+#git clone link_repositorio
+O link eh obtido no repositorio remoto, pode ser https ou ssh
+para usar o ssh precisa configurar a chaves, criar outro tutorial para isso
+
+3) Adiciona no repositorio local o arquivo desejado
+#vi teste.txt
+Coloca o conteudo desejado
+
+4) Adiciona o arquivo ao index
+#git add teste.txt
+
+5) Commita o arquivo para que seja possivel enviar ao repositorio remoto
+#git commit -m "Mensagem que deseja inserir" teste.txt
+
+6) Envia o arquivo ao repositorio remoto
+#git push
+Esse comando vai solicitar as credenciais
+
+OBS: o comando abaixo pode ser usado para acompanhar o status do que esta sendo alterado
+#git status
+
+Comando para verificar os logs
+#git logs
